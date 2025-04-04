@@ -22,7 +22,7 @@ const EditTaskPage = async ({ params }: Params) => {
   return (
     <div className='flex flex-col item-center justify-center py-20'>
       <h2 className='text-center text-2xl font-bold'>Edit Task</h2>
-      <EditTaskForm />
+      <EditTaskForm task={task} />
     </div>
   )
 }
